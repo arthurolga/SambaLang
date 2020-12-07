@@ -35,3 +35,8 @@ set_var = id, "=", exp;
 execute = typing | set_var | if_se | while_enquanto | "return", (execute,"\n") ;
 
 ```
+COMPILLING BISON AND FLEX
+```
+yacc -d samba_syntax.y ; lex samba_semantics.l ; cc lex.yy.c y.tab.c -o output;
+./output
+```
