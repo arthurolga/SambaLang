@@ -1,0 +1,10 @@
+
+>> 
+Isso é um comentário!
+Ele pode ter multiplas linhas
+<<
+
+definir minha_palavra@Corda
+minha_palavra = "Hello"*" World"
+escreve(minha_palavra)
+
