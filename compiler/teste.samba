@@ -1,10 +1,20 @@
+criar_funcao É_Par(x@Inteiro)@Bool
+    se(((x/2)*2)==x)
+        retorna true
+    senao
+        retorna false
+    fim
+fim
 
->> 
-Isso é um comentário!
-Ele pode ter multiplas linhas
-<<
+>> Declara <<
+definir var@Bool
+definir input@Inteiro
 
-definir minha_palavra@Corda
-minha_palavra = "Hello"*" World"
-escreve(minha_palavra)
+>> Input <<
+input = ler()
+
+>> Chamada de funcao <<
+var = É_Par(input)
+escreve(var)
+
 
